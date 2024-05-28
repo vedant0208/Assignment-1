@@ -1,0 +1,154 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #1F2937;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+#hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+#hero h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+#hero button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#about, #schedule, #speakers {
+    padding: 50px 0;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+#about div {
+    overflow: hidden;
+}
+
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+}
+
+.accordion-title {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #F3F4F6;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.tabs {
+    margin-top: 20px;
+}
+
+.tab {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.tab button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #CCCCCC;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}

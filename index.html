@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Certs Event</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt=" Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#register">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="overlay">
+            <h1>AI Certs Event</h1>
+            <p>June 15-17, 2024 | Virtual</p>
+            <p>Join the leading AI experts and enthusiasts</p>
+            <button>Register Now</button>
+            <div id="countdown"></div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <img src="event-image.jpg" alt="event Image">
+            <div>
+                <h2>About the Event</h2>
+                <p>Learn about the latest advancements in AI technology and network with industry leaders.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2>Schedule</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-title">Day 1: Introduction to AI</div>
+                    <div class="accordion-content">9:00 AM - 10:00 AM: Opening Remarks</div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-title">Day 2: AI Applications</div>
+                    <div class="accordion-content">9:00 AM - 10:00 AM: AI in Healthcare</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers">
+        <div class="container">
+            <h2>Speakers</h2>
+            <div class="tabs">
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Speaker1')">Speaker 1</button>
+                </div>
+                <div id="Speaker1" class="tabcontent">
+                    <h3>John Doe</h3>
+                    <p>AI Expert at Tech Corp</p>
+                </div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'Speaker2')">Speaker 2</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact us: info@aicerts.com</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
